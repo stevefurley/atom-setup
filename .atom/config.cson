@@ -1,0 +1,39 @@
+"*":
+  "atom-beautify":
+    css:
+      force_indentation: true
+      newline_between_rules: true
+      preserve_newlines: true
+    general:
+      _analyticsUserId: "7e5f196f-a5fe-4ccc-b0de-ba4c7e492b30"
+      beautifyEntireFileOnSave: false
+    php:
+      cs_fixer_path: "/usr/local/bin"
+      phpcbf_path: "/usr/local/bin"
+    scss:
+      indent_size: 2
+      newline_between_rules: true
+  core:
+    disabledPackages: [
+      "formatter-jsbeautify"
+      "linter"
+      "linter-phpcs"
+      "atom-phpcs"
+    ]
+    telemetryConsent: "no"
+  editor:
+    invisibles: {}
+  "exception-reporting":
+    userId: "e310fdd0-2dd7-c236-43d0-38cecf2c1c88"
+  "formatter-jsbeautify":
+    a: {}
+    css: {}
+    html: {}
+    js: {}
+    less: {}
+    sass: {}
+  "php-cs-fixer": {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
